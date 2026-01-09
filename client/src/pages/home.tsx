@@ -607,7 +607,7 @@ function Footer() {
               <img 
                 src="/dentrx-logo.png" 
                 alt="Dentrx Dental Lab" 
-                className="h-12 w-auto brightness-0 invert"
+                className="h-12 w-auto"
               />
             </div>
             <p className="text-white/60 max-w-sm mb-6">
