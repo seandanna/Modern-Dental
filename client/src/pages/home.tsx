@@ -50,13 +50,12 @@ function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 glass">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <a href="#" className="flex items-center gap-3" data-testid="link-home">
-            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-white font-heading font-bold text-xl">D</span>
-            </div>
-            <span className="font-heading font-bold text-2xl text-foreground">
-              Dentrx<span className="text-primary">.</span>
-            </span>
+          <a href="#" className="flex items-center" data-testid="link-home">
+            <img 
+              src="/dentrx-logo.png" 
+              alt="Dentrx Dental Lab" 
+              className="h-12 w-auto"
+            />
           </a>
 
           <div className="hidden md:flex items-center gap-8">
@@ -604,13 +603,12 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center">
-                <span className="text-primary font-heading font-bold text-xl">D</span>
-              </div>
-              <span className="font-heading font-bold text-2xl">
-                Dentrx<span className="text-secondary">.</span>
-              </span>
+            <div className="mb-4">
+              <img 
+                src="/dentrx-logo.png" 
+                alt="Dentrx Dental Lab" 
+                className="h-12 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-white/60 max-w-sm mb-6">
               Santa Monica's trusted dental laboratory partner. Delivering precision, 
