@@ -491,7 +491,7 @@ function Contact() {
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-lg text-foreground mb-1">Phone</h3>
-                  <a href="tel:+13105551234" className="text-primary hover:underline" data-testid="link-phone">
+                  <a href="tel:+13105551234" className="text-secondary hover:underline" data-testid="link-phone">
                     (310) 555-1234
                   </a>
                 </div>
@@ -503,7 +503,7 @@ function Contact() {
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-lg text-foreground mb-1">Email</h3>
-                  <a href="mailto:info@dentrxdentallab.com" className="text-primary hover:underline" data-testid="link-email">
+                  <a href="mailto:info@dentrxdentallab.com" className="text-secondary hover:underline" data-testid="link-email">
                     info@dentrxdentallab.com
                   </a>
                 </div>
