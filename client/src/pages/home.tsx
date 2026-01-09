@@ -134,7 +134,7 @@ function Hero() {
         >
           <motion.div 
             variants={fadeInUp}
-            className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6"
+            className="inline-flex items-center gap-2 bg-secondary/10 text-secondary px-4 py-2 rounded-full text-sm font-medium mb-6"
           >
             <Sparkles className="w-4 h-4" />
             30+ Years of Excellence
@@ -282,7 +282,7 @@ function Services() {
                     {service.features.map((feature) => (
                       <span 
                         key={feature}
-                        className="text-xs bg-primary/10 text-primary px-3 py-1 rounded-full"
+                        className="text-xs bg-secondary/10 text-secondary px-3 py-1 rounded-full"
                       >
                         {feature}
                       </span>
@@ -345,7 +345,7 @@ function WhyUs() {
                   transition={{ delay: index * 0.1 }}
                   className="flex gap-4"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center">
+                  <div className="flex-shrink-0 w-12 h-12 bg-secondary/10 text-secondary rounded-xl flex items-center justify-center">
                     {feature.icon}
                   </div>
                   <div>
@@ -476,7 +476,7 @@ function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-secondary/10 text-secondary rounded-xl flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
@@ -486,7 +486,7 @@ function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-secondary/10 text-secondary rounded-xl flex items-center justify-center flex-shrink-0">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
@@ -498,7 +498,7 @@ function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-secondary/10 text-secondary rounded-xl flex items-center justify-center flex-shrink-0">
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
@@ -510,7 +510,7 @@ function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary/10 text-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-secondary/10 text-secondary rounded-xl flex items-center justify-center flex-shrink-0">
                   <Clock className="w-5 h-5" />
                 </div>
                 <div>
